@@ -1,4 +1,4 @@
-/* CSS RESET - do not remove */
+/* CSS RESET - do not remove
 /* Reset default browser styles and provide a consistent starting point */
 html {
   box-sizing: border-box;
@@ -9,16 +9,102 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body, h1, h2, h3, h4, h5, h6, p, ol, ul  {
+  font-family: "Helvetica", sans-serif;
+  font-weight: lighter;
   margin: 0;
   padding: 0;
-  font-weight: lighter;
 }
 
-/*  Set the font */
+.image-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 80%;
+  height: auto;
+}
+
+.image-container .image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: white;
+}
+
 body {
-  font-family: "Helvetica", sans-serif;
+  margin-bottom: 100px;
 }
 
-/* STYLES */
-/* Write your CSS below */
+header p {
+  margin-top: 50px;
+  font-size: 22px;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.image-container .image-text {
+  font-size: 70px;
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+ul, ol {
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+} */
